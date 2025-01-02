@@ -928,6 +928,14 @@ require('lazy').setup({
     --    - Show your current context: https://github.com/nvim-treesitter/nvim-treesitter-context
     --    - Treesitter + textobjects: https://github.com/nvim-treesitter/nvim-treesitter-textobjects
   },
+    -- add this to your lua/plugins.lua, lua/plugins/init.lua,  or the file you keep your other plugins:
+  {
+      'numToStr/Comment.nvim',
+      opts = {
+          -- add any options here
+      }
+  },
+
 
 
   -- The following comments only work if you have downloaded the kickstart repo, not just copy pasted the
